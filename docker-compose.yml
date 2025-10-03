@@ -1,0 +1,22 @@
+services:
+  php-dev-clear:
+    image: php-dev-clear:latest
+    container_name: php-dev-clear
+    build:
+      context: .
+      dockerfile: docker/dockerfiles/php-dev-clear.dockerfile
+      args:
+        PHP_REPO_URL: ${PHP_REPO_URL}
+        PHP_REPO_GPG_URL: ${PHP_REPO_GPG_URL}
+        PHP_REPO_SOURCE_LIST_DIST: ${PHP_REPO_SOURCE_LIST_DIST}
+        PHP_VERSION: ${PHP_VERSION}
+        TEMP_PACKAGES: ${TEMP_PACKAGES}
+    volumes:
+      - .:/www/project
+      - ./.containers_data/php/logs:/var/log/php
+    networks:
+      - php-dev-clear-network
+
+networks:
+  php-dev-clear-network:
+    driver: bridge
