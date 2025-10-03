@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\EntityInterfaces;
+namespace Mirutights\EntityInterfaces;
 interface DealEntityInterface
 {
     public function setStatus(string $status):void;

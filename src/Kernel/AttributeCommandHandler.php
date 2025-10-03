@@ -1,15 +1,15 @@
 <?php
 
-namespace Src\Kernel;
+namespace Mirutights\Kernel;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use ReflectionClass;
 use ReflectionMethod;
-use Src\Kernel\Attributes\Command;
-use Src\Kernel\Attributes\SensitiveCommand;
-use Src\Kernel\Helpers\CommandMap;
-use Src\Kernel\Helpers\CommandReflection;
+use Mirutights\Kernel\Attributes\Command;
+use Mirutights\Kernel\Attributes\SensitiveCommand;
+use Mirutights\Kernel\Helpers\CommandMap;
+use Mirutights\Kernel\Helpers\CommandReflection;
 use Symfony\Component\Console\Exception\CommandNotFoundException;
 
 abstract class AttributeCommandHandler implements CommandHandlerInterface

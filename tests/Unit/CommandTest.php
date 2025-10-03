@@ -1,6 +1,6 @@
 <?php
 
-use Src\Kernel\Attributes\Command;
+use Mirutights\Kernel\Attributes\Command;
 
 class CommandTest extends \PHPUnit\Framework\TestCase
 {

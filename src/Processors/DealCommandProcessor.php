@@ -1,11 +1,11 @@
 <?php
 
-namespace Src\Processors;
-use Src\EntityInterfaces\DealEntityInterface;
-use Src\Handlers\DealCommandHandler;
-use Src\Kernel\Attributes\Command;
-use Src\Kernel\Attributes\SensitiveCommand;
-use Src\Kernel\CommandProcessorInterface;
+namespace Mirutights\Processors;
+use Mirutights\EntityInterfaces\DealEntityInterface;
+use Mirutights\Handlers\DealCommandHandler;
+use Mirutights\Kernel\Attributes\Command;
+use Mirutights\Kernel\Attributes\SensitiveCommand;
+use Mirutights\Kernel\CommandProcessorInterface;
 
 class DealCommandProcessor implements CommandProcessorInterface
 {

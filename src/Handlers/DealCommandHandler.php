@@ -1,12 +1,12 @@
 <?php
 
-namespace Src\Handlers;
+namespace Mirutights\Handlers;
 
 use phpDocumentor\Reflection\Types\ClassString;
-use Src\EntityInterfaces\DealEntityInterface;
-use Src\Kernel\AttributeCommandHandler;
-use Src\Kernel\CommandHandlerInterface;
-use Src\Processors\DealCommandProcessor;
+use Mirutights\EntityInterfaces\DealEntityInterface;
+use Mirutights\Kernel\AttributeCommandHandler;
+use Mirutights\Kernel\CommandHandlerInterface;
+use Mirutights\Processors\DealCommandProcessor;
 
 /**
  * @psalm-suppress UnusedClass

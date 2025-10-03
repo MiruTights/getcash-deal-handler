@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Kernel\Attributes;
+namespace Mirutights\Kernel\Attributes;
 
-use Src\Kernel\Helpers\CommandMap;
+use Mirutights\Kernel\Helpers\CommandMap;
 
 #[\Attribute]
 readonly class Command

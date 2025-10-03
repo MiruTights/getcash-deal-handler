@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Kernel;
+namespace Mirutights\Kernel;
 
 
 interface CommandHandlerInterface

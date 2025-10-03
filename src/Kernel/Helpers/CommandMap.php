@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Kernel\Helpers;
+namespace Mirutights\Kernel\Helpers;
 
 readonly class CommandMap
 {

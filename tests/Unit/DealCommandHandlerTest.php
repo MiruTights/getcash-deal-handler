@@ -1,8 +1,8 @@
 <?php
 
 use Psr\Log\LoggerInterface;
-use Src\EntityInterfaces\DealEntityInterface;
-use Src\Handlers\DealCommandHandler;
+use Mirutights\EntityInterfaces\DealEntityInterface;
+use Mirutights\Handlers\DealCommandHandler;
 
 class DealCommandHandlerTest extends \PHPUnit\Framework\TestCase
 {
@@ -152,7 +152,7 @@ class DealCommandHandlerTest extends \PHPUnit\Framework\TestCase
         $logger->expects('info')
             ->with('Command matched', [
                 'command' => '/принято',
-                'class' => \Src\Processors\DealCommandProcessor::class,
+                'class' => \Mirutights\Processors\DealCommandProcessor::class,
                 'method' => 'setAccepted',
             ]);
 

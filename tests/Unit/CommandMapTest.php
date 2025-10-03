@@ -1,6 +1,6 @@
 <?php
 
-use Src\Kernel\Helpers\CommandMap;
+use Mirutights\Kernel\Helpers\CommandMap;
 
 class CommandMapTest extends \PHPUnit\Framework\TestCase
 {
